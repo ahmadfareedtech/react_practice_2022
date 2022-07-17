@@ -1,0 +1,17 @@
+.movie {
+    background-color: purple;
+    width: 50vw;
+    border-radius: 12px;
+    padding: 10px;
+    color: yellow;
+    font-weight: bold;
+    font-size: larger;
+    margin: 10px auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.586);
+}
+
+@media screen and (max-width: 700px) {
+    .movie {
+        width: 80vw;
+    }
+}

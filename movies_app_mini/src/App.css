@@ -28,10 +28,30 @@
   color: #61dafb;
 }
 
+button {
+  border: none;
+  margin: 10px;
+  font-weight: bold;
+  background-color: purple;
+  color: white;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: rgb(80, 0, 80);
+  cursor: pointer;
+}
+
+.error_text {
+  color: red;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

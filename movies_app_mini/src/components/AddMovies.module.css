@@ -1,0 +1,65 @@
+form {
+    margin: 20px auto;
+    background-color: rgb(212, 110, 212);
+    border: 2px solid purple;
+    border-radius: 12px;
+    display: inline-block;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.586);
+}
+
+.control {
+    display: flex;
+    /* background-color: blue; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px;
+    width: 39vw;
+}
+
+.control label {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.control input {
+    width: 25vw;
+    border: none;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.action button {
+    background-color: purple;
+    margin: 5px;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.action button:hover {
+    background-color: rgb(80, 0, 80);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+
+    .control {
+        flex-direction: column;
+        /* width: 69vw; */
+    }
+
+    .control input {
+        width: 55vw;
+    }
+
+    form {
+        width: 80vw;
+    }
+
+}
